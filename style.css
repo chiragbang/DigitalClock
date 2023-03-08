@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=EB+Garamond&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ background-image: url(bg.jpg);
+ background-size: cover;
+}
+
+.container {
+    position: absolute;
+    left: 0;
+  margin-top: 400px;
+  display: block;
+  align-items: center;
+}
+
+.jumbotron {
+  /* From https://css.glass */
+  background: rgba(247, 235, 235, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(247, 235, 235, 0.3);
+
+  text-align: center;
+  width: 500px;
+
+  
+}
+
+h1 {
+  color: rgb(15, 18, 21);
+  font-family: 'EB Garamond', serif;
+}
+
+display-4 {
+  align-items: center;
+}
+
+span{
+    display: block;
+    font-size: 50px;
+    font-family: 'Carter One', cursive;
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+}
